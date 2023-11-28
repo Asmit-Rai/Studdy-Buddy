@@ -41,7 +41,6 @@ body{
 }
 
 
-
 #second-section-home {
   display: flex;
   gap: 1.5vw;
@@ -98,40 +97,10 @@ body{
   font-weight: 100;
   position: relative;
   top: 1em;
-  
-  
 }
 
-.wave:nth-child(2),
-.wave:nth-child(3) {
-  top: 210px;
-}
 
-.playing .wave {
-  border-radius: 40%;
-  animation: wave 3000ms infinite linear;
-}
 
-.wave {
-  border-radius: 40%;
-  animation: wave 55s infinite linear;
-}
-
-.playing .wave:nth-child(2) {
-  animation-duration: 4000ms;
-}
-
-.wave:nth-child(2) {
-  animation-duration: 50s;
-}
-
-.playing .wave:nth-child(3) {
-  animation-duration: 5000ms;
-}
-
-.wave:nth-child(3) {
-  animation-duration: 45s;
-}
 
 @keyframes wave {
   0% {
@@ -146,7 +115,7 @@ body{
 
 .footer3 {
     position: relative;
-    width: 90%;
+    width: 95%;
     background: #3586ff;
     min-height: 100px;
     padding: 20px 50px;
@@ -204,59 +173,6 @@ body{
     font-weight: 300;
   }
   
-  .wave3 {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url("https://i.ibb.co/wQZVxxk/wave.png");
-    background-size: 1000px 100px;
-  }
+ 
   
-  .wave3#wave4 {
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: animateWaves 4s linear infinite;
-  }
-  
-  .wave3#wave5 {
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animate 4s linear infinite !important;
-  }
-  
-  .wave3#wave6 {
-    z-index: 1000;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: animateWaves 3s linear infinite;
-  }
-  
-  .wave3#wave7 {
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animate 3s linear infinite;
-  }
-  
-  @keyframes animateWaves {
-    0% {
-      background-position-x: 1000px;
-    }
-    100% {
-      background-positon-x: 0px;
-    }
-  }
-  
-  @keyframes animate {
-    0% {
-      background-position-x: -1000px;
-    }
-    100% {
-      background-positon-x: 0px;
-    }
-  }
   
