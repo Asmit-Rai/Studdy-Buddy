@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles1.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="quiz.html">Home</a>
+        <a href="#">Create Quiz</a>
+        <a href="#">Join Quiz</a>
+        <a href="#">View History</a>
+        <a href="#">Leaderscore</a>
+        
+    </div>
+
+    <section class="main">
+        <div class="container">
+            <div class="col">
+                <h3 id="questionBox">
+                    🎓Click the button to begin the Quiz🎓
+                </h3>
+            </div>
+            <button id="submit" onclick="navigateToPage2()">Click here</button>
+        </div>
+    </section>
+
+    <script>
+        function navigateToPage2() {
+            window.location.href = "quiz.html";
+        }
+    </script>
+</body>
+
+</html>
