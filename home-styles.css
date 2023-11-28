@@ -9,6 +9,14 @@ body{
   background: #000405;
   color: #fff;
 }
+
+
+.firstsection
+{
+  width: 100%;
+}
+
+/* fancy text */
 .paragraph0 {
   font-size: 8vw;
   text-transform: uppercase;
@@ -28,12 +36,19 @@ body{
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    
   }
 }
+
+
+
 #second-section-home {
   display: flex;
   gap: 1.5vw;
   margin: 50px;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -46,6 +61,7 @@ body{
   height: 330px;
   border-radius: 16px;
   overflow: hidden;
+  
 }
 
 .wave {
@@ -82,7 +98,8 @@ body{
   font-weight: 100;
   position: relative;
   top: 1em;
-  text-transform: lowercase;
+  
+  
 }
 
 .wave:nth-child(2),
@@ -129,7 +146,7 @@ body{
 
 .footer3 {
     position: relative;
-    width: 100%;
+    width: 90%;
     background: #3586ff;
     min-height: 100px;
     padding: 20px 50px;
