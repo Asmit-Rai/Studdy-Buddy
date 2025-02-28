@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="study_tools_style.css" />
+    <link rel="stylesheet" href="todoliststyle.css" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  </head>
+  <body>
+
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Study Buddy</a></div>
+        <ul class="menu">
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/index.html">Road Maps</a></li>
+          <li><a href="http://localhost/">Give Quiz</a></li>
+          <li><a href="http://localhost/admin.php">Admin</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <div class="container">
+        <div class="timer">
+          <h1>Pomodoro Timer</h1>
+          <div class="button-container">
+            <button class="button" id="pomodoro-session">Pomodoro</button>
+            <button class="button" id="short-break">Short Break</button>
+            <button class="button" id="long-break">Long break</button>
+          </div>
+          <div id="pomodoro-timer" class="timer-display" data-duration="25.00">
+            25:00
+          </div>
+
+          <div id="short-timer" class="timer-display" data-duration="5.00">
+            5:00
+          </div>
+
+          <div id="long-timer" class="timer-display" data-duration="10.00">
+            10:00
+          </div>
+          <div id="buttons">
+            <button id="start">START</button>
+            <button id="stop">STOP</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div id="newtask">
+            <input type="text" placeholder="Add Tasks">
+            <button id="push">Add</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+
+
+
+    <script src="todolistscript.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
